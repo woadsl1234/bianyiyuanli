@@ -1,0 +1,10 @@
+{
+    "python.pythonPath": "/usr/local/bin/python",
+    "python.unitTest.pyTestArgs": [
+        "3-2"
+    ],
+    "python.unitTest.unittestEnabled": false,
+    "python.unitTest.nosetestsEnabled": false,
+    "python.unitTest.pyTestEnabled": false,
+    "python.unitTest.promptToConfigure": false
+}

@@ -8,7 +8,7 @@ x = str(raw_input())
 class Analysis:
     def __init__(self,string):
         self.keyword = {'case': 'kw_case', 'do': 'kw_do', 'return': 'kw_return', 'for': 'kw_for', 'int': 'kw_int', 'void': 'kw_void', 'while': 'kw_while', 'else': 'kw_else', 'char': 'kw_char', 'default': 'kw_default', 'switch': 'kw_switch', 'continue': 'kw_continue', 'break': 'kw_break', 'if': 'kw_if'}
-        self.changliang = {'num':r'\d+','ch':r'\'.*?\'','str':r'".*?"'}
+        self.changliang = {'num':r'\d+','ch':r'\'.*{1}\'','str':r'".*?"'}
         self.regex = r'\d+|\'.*?\'|\".*?\"'
         self.string = string
         self.res = []
